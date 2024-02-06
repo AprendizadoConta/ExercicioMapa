@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExercicioGeo.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Exercício de Mapa" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Image Source="xamarin_essentials" HorizontalOptions="Center" VerticalOptions="Start"/>
+        <Label Text="País"/>
+        <Entry x:Name="txtPais" Placeholder="Digite um País" PlaceholderColor="#ADD8E6"/>
+        <Label Text="UF"/>
+        <Entry x:Name="txtUF" Placeholder="Digite um estado" PlaceholderColor="#ADD8E6"/>
+        <Label Text="Local"/>
+        <Entry x:Name="txtLocal" Placeholder="Digite um Local" PlaceholderColor="#ADD8E6"/>
+        <Label Text="Cidade"/>
+        <Entry x:Name="txtCidade" Placeholder="Digite uma cidade" PlaceholderColor="#ADD8E6"/>
+        <Button Text="Ver no Mapa" BackgroundColor="#3CB371" TextColor="White" Clicked="Button_Clicked" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
